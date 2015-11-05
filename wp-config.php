@@ -21,6 +21,7 @@ define('DB_NAME', 'ultimum');
 /** MySQL database username */
 define('DB_USER', 'root');
 
+
 /** MySQL database password */
 define('DB_PASSWORD', 'sanu');
 
