@@ -1891,3 +1891,22 @@ margin-bottom: 0;
     position: relative;
     padding-top: 120px;
 }
+.portfolio-box.text-center.productlist {
+    width: 70%;
+    margin: auto;
+}
+
+nav.site-nav {
+    margin-top: 5%;
+}
+.innerpagebg
+{
+	background-image: none !important;
+}
+header.theme-header.customheader {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+header.sticky-header {
+    display: none !important;
+}

@@ -14,7 +14,7 @@ if(is_home()){$wrapper_class = 'homepage header-wrapper';}else{$wrapper_class = 
 ?>
 	<div class="<?php echo $wrapper_class;?>">
 		<!--Header-->
-		<header class="theme-header">
+		<header class="theme-header innerpagebg">
 			<div class="container">
 				<div class="logo-box text-left">
 					
@@ -50,6 +50,16 @@ if(is_home()){$wrapper_class = 'homepage header-wrapper';}else{$wrapper_class = 
 				</nav>
 			</div>
 		</header>
+		<?php
+		if ( is_home() ) {
+		    
+		} else {
+		   ?>
+		   <header class="theme-header customheader">
+		   </header>
+		   <?php 
+		}
+		?>		
 <?php
    $enable_sticky_header      =  meris_options_array('enable_sticky_header');
    if( $enable_sticky_header != "" ){
